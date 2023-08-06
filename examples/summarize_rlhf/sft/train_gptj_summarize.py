@@ -22,7 +22,7 @@ def set_seed(seed_val=42):
 
 if __name__ == "__main__":
     output_dir = "gptj-supervised-summarize-checkpoint"
-    train_batch_size = auto
+    train_batch_size = 16
     gradient_accumulation_steps = 1
     learning_rate = 1e-5
     eval_batch_size = 1
